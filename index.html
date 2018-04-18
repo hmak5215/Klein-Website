@@ -2,15 +2,23 @@
 <html>
 	<head>
 		<title>Klein Homepage</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="Styles/styles.css">
 		<link rel="stylesheet" type="text/css" href="Styles/home.css">
+		<script src="Scripts/nav.js"></script>
 	</head>
 	<body>
 
 		<!-- HEADER -->
 
 		<div id="header">
-			
+			<div class="nav" id="navbar">
+				<a href="index.html" class="active">Home</a>
+				<a href="resources.html">Resources</a>
+				<a href="codeorg.html">Code.org</a>
+				<a href="#">TSA</a>
+				<a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="responsiveNav()">&#9776;</a>
+			</div>
 		</div>
 		
 		<!-- MAIN CONTENT -->
@@ -23,11 +31,12 @@
 			</div>
 
 			<div id="image">
-				<img src="Images/kleins-face.jpeg" width="125%"/>
+				<img src="Images/kleins-face.jpeg"/>
 			</div>
 
 			<div id="contact-info">
-				
+				<h2>Contact Me</h2>
+				<h3>LHS Extension: </h3>
 			</div>
 		</div>
 
