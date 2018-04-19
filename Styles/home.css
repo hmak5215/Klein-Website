@@ -1,6 +1,7 @@
 #bio {
 	float: left;
-	background-color: white;
+	padding: 10px;
+	width: 70%;
 }
 
 #image {
