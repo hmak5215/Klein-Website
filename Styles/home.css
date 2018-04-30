@@ -5,27 +5,43 @@
 	position: relative;
 }
 
-#bio {
+#maininfo {
 	float: left;
 	padding: 20px;
 	overflow: hidden;
 	width: 70%;
 }
 
-#image {
-
+#maininfo h2 {
+	font-family: 'Titillium Web';
+	color: #333;
+	font-size: 30px;
+	text-align: center;
+	background-color: lightgray;
+	border-bottom: 5px solid gray;
+	/*box-shadow: 4px 4px 10px #888;*/
 }
 
 #contact-info {
 	line-height: 1.5;
 }
 
-#contact-info a {
-	text-decoration: none;
-	color: #3385ff;
-}
-
 .bold {
 	font-weight: 600;
 	color: #333;
+}
+
+@media screen and (max-width: 1115px) {
+	#maininfo {
+		width: 100%;
+	}
+
+	#infowrapper {
+		display: inline-block;
+		width: 100%;
+	}
+
+	#image {
+		float: left;
+	}
 }

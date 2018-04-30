@@ -93,15 +93,34 @@ body {
 	display: inline-block;
 }
 
+#content a {
+	text-decoration: none;
+	color: #3385ff;
+}
+
+#content a:hover {
+	color: #66a3ff;
+}
+
+#content p {
+	color: #4d4d4d;
+	font-size: 17px;
+}
+
+@media screen and (max-width: 670px) {
+	#content {
+		margin: 0;
+	}
+}
 
 
 /********************/
 /****** FOOTER ******/
 /********************/
 
-#footer {
+/*#footer {
 
-}
+}*/
 
 /*********************/
 /* RESPONSIVE DESIGN */
